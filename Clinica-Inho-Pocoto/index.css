@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #c7bcbc; 
+}
+
+.page__wrapper{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.wrapper {
+    margin: auto;
+    display: flex;
+    background-color: red;
+
+    flex: 1;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: #928679;   
+    font-size: 20px;
+}
+
+.menu ul { 
+    list-style: none;
+}
+
+.menu li {
+    width: 100%;
+    text-align: center;
+
+    border-bottom: 1px solid #5f5953;
+}
+
+.menu li:hover {
+    background: #CCAF58 ;
+}
+
+.menu a {
+     text-decoration: none;
+     color: black;
+
+     font-weight: bold;
+     font-family: 'Franklin Gothic Medium';
+}
+
+.header {
+    background-color: #313803;
+    height: 50px;
+
+    display: flex;
+}
+
+.header > h1 {
+    color: #CCAF58;
+    font-size: 40px;
+    margin: 0 15px;
+    font-family: 'Lucida Sans';
+}
+.content {
+    background-color: #e7dada;
+    padding: 20px;
+
+    font-size: 30px;
+    letter-spacing: -0.5px;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    text-align: justify;
+    color:rgb(0, 0, 0);
+
+    
+    display:flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.content h3 {
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.imgContent {
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.imgContent h4 {
+    text-align: center;
+    color: red;
+    font-size: 30px;
+}
+
+.imgContent img{
+    max-height: 700px;
+    object-fit: cover;
+    align-self: center;
+
+    margin: 10px 0;
+}
+
+
+
+.footer {
+    background-color: #313803c9;
+    border-top: 0.5px solid black;
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-size: 17px;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+
+    color: #CCAF58;
+}
+
+.footer__links {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    width: 25%;
+    margin: auto;
+    margin-top: 5px;
+    font-size: 17px;
+}
+
+.footer__links a {
+    text-decoration: none;
+    color: #CCAF58;
+}
